@@ -1,0 +1,43 @@
+package am;
+
+import java.util.*;
+
+public class Car {
+	//필드
+	String company;
+	String model;
+	String color;
+	int distance;
+	String date;
+	
+	
+	//생성자 기본생성자(오버로딩 : 이름이똑같이 car인데 매개변수만다른거)
+	public Car(){
+		
+	}
+	
+	
+	
+	//생성자2 매개변수,,파라미터가 다름
+	public Car(String company, String model, String color, int distance) {
+		super();
+		this.company = company;
+		this.model = model;
+		this.color = color;
+		this.distance = distance;
+	}
+
+
+
+
+	//메소드
+	public void print() {
+		System.out.println("회사 : "+company);
+		System.out.println("모델 : "+model);
+		System.out.println("색상 : "+color);
+		System.out.println("주행거리 : "+distance);
+		System.out.println("연식 : "+date);
+		
+	}
+	
+}

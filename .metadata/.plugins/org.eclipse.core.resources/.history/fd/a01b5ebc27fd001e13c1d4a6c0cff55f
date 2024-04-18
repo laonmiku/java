@@ -1,0 +1,6 @@
+package sale;
+
+public class Sub {
+	public static void run() {}
+	
+}

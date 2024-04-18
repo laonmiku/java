@@ -1,0 +1,10 @@
+package product;
+import java.util.*;
+
+public interface productInter { //기본틀만잡아줌,,
+	public ArrayList<ProductVO>list();
+	public void insert(ProductVO vo);
+	public void delete(String code);
+	public void update(ProductVO vo);
+	public ProductVO read(String code);
+}

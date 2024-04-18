@@ -1,0 +1,10 @@
+package sale;
+
+public class SaleDAO {
+
+	public ArrayList<SaleVO>list(){
+		ArrayList<SaleVO>array = new ArrayList<>();
+		
+		return array;
+	}
+}

@@ -1,0 +1,48 @@
+package product;
+
+import java.sql.Connection;
+import java.util.ArrayList;
+
+public class ProductDAO implements ProductInter{
+	
+	Connection con=Database.CON;
+
+	@Override
+	public ArrayList<ProductVO> list() {
+		ArrayList<ProductVO> array=new ArrayList<>();
+		try {
+			String sql=""
+		}catch(Exception e) {
+			System.out.println("상품목록:"+e.toString());
+		}
+		
+		return null;
+	}
+
+	@Override
+	public void insert(ProductVO vo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(String code) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(ProductVO vo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public ProductVO read(String code) {
+		// TODO Auto-generated method stub
+		return null;
+	} //데이터 악세스 오브젝트,,데이터 접근 객체,,메소드하기위해 접근해서,,
+
+	
+	
+}

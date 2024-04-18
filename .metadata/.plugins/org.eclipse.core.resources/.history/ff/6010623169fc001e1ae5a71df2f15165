@@ -1,0 +1,9 @@
+package product;
+
+public class ProductVO {//자바빈(1.필드 2.메소드)
+	private  String code;
+	private String name;
+	private int pricr;
+	
+	
+}
