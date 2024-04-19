@@ -9,13 +9,13 @@ create table profe(
 drop table profe;
 
 insert into profe (pcode,pname,dept,hiredate,title,salary)
-values ('221','ÀÌº´·Ä','Àü»ê','75/04/03','Á¤±³¼ö','3000000'); 
+values ('221','ì´ë³‘ë ¬','ì „ì‚°','75/04/03','ì •êµìˆ˜','3000000'); 
 insert into profe (pcode,pname,dept,hiredate,title,salary)
-values ('228','ÀÌÀç±¤','Àü»ê','91/09/19','ºÎ±³¼ö','2500000'); 
+values ('228','ì´ì¬ê´‘','ì „ì‚°','91/09/19','ë¶€êµìˆ˜','2500000'); 
 insert into profe (pcode,pname,dept,hiredate,title,salary)
-values ('311','°­½ÂÀÏ','ÀüÀÚ','94/06/09','Á¤±³¼ö','2300000'); 
+values ('311','ê°•ìŠ¹ì¼','ì „ì','94/06/09','ì •êµìˆ˜','2300000'); 
 insert into profe (pcode,pname,dept,hiredate,title,salary)
-values ('509','¿À¹®¿Ï','°ÇÃà','92/10/14','Á¶±³¼ö','2000000'); 
+values ('509','ì˜¤ë¬¸ì™„','ê±´ì¶•','92/10/14','ì¡°êµìˆ˜','2000000'); 
 
 select * from profe;
 
@@ -32,20 +32,20 @@ select * from student;
 drop table student;
 
 insert into student(scode,sname,dept,year,birthday,advisor) 
-values('92414029','¼­¿¬¿ì','Àü»ê',3,'73/10/06','228');
+values('92414029','ì„œì—°ìš°','ì „ì‚°',3,'73/10/06','228');
 insert into student(scode,sname,dept,year,birthday,advisor)
-values('92414033','±èÃ¢´ö','Àü»ê',4,'73/10/26','221');
+values('92414033','ê¹€ì°½ë•','ì „ì‚°',4,'73/10/26','221');
 insert into student(scode,sname,dept,year,birthday,advisor) 
-values('92514009','ÀÌÁöÇà','ÀüÀÚ',4,'73/11/16','311');
+values('92514009','ì´ì§€í–‰','ì „ì',4,'73/11/16','311');
 insert into student(scode,sname,dept,year,birthday,advisor) 
-values('92514023','±èÇü¸í','ÀüÀÚ',4,'73/08/29','311');
+values('92514023','ê¹€í˜•ëª…','ì „ì',4,'73/08/29','311');
 insert into student(scode,sname,dept,year,birthday,advisor)
-values('92454018','ÀÌ¿ø±¸','°ÇÃà',3,'74/09/30','509');
+values('92454018','ì´ì›êµ¬','ê±´ì¶•',3,'74/09/30','509');
 insert into student(scode,sname,dept,year,birthday,advisor) 
-values('95454003','ÀÌÀç¿µ','°ÇÃà',4,'76/02/06','509');
+values('95454003','ì´ì¬ì˜','ê±´ì¶•',4,'76/02/06','509');
 insert into student(scode,sname,dept,year,birthday,advisor) 
-values('95414058','¹ÚÇı°æ','Àü»ê',4,'76/03/12','221');
+values('95414058','ë°•í˜œê²½','ì „ì‚°',4,'76/03/12','221');
 insert into student(scode,sname,dept,year,birthday,advisor) 
-values('96414404','±è¼öÁ¤','Àü»ê',3,'77/12/22','228');
+values('96414404','ê¹€ìˆ˜ì •','ì „ì‚°',3,'77/12/22','228');
 
 commit;
